@@ -12,3 +12,7 @@ module.exports.signUp = async (req, res) => {
         res.status(200).send({err})
     }
 }
+
+module.exports.signIn = async (req, res) {
+    
+}
